@@ -6,12 +6,6 @@
 <h4 align="center">Exemple: convert 1 Usd in Euro and Australian Dollar </h4>
 </p>
 
-## 🚩 Table of Contents
-- [Installation](#-installation)
-- [How to use ?](#-how-to-use)
-  - [Exemple](#exemple)
-- [Available currencies ?](#-available-currencies)
-
 ***
 
 ##  ⚙️ Installation 
