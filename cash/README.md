@@ -7,10 +7,10 @@
 </p>
 
 ## 🚩 Table of Contents
-- [Installation](installation)
-- [How to use ?](how-to-use)
-  - [Exemple](exemple)
-- [Available currencies ?](available-currencies)
+- [Installation](#installation)
+- [How to use ?](#how-to-use)
+  - [Exemple](#exemple)
+- [Available currencies ?](#available-currencies)
 
 ***
 
