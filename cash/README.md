@@ -3,7 +3,7 @@
 
 <p align="center"> 
 <img src="https://media.giphy.com/media/vcA94CWgLidcuQRCzT/giphy.gif">
-<h4 align="center">Exemple: convert 1 Usd in Euro and Australian Dollar </h4>
+<h4 align="center">Example: convert 1 Usd in Euro and Australian Dollar </h4>
 </p>
 
 ***
@@ -39,7 +39,7 @@ Otherwise, the basic usage commands are listed below: :point_down:
 
  $ node bin/index.js <command>
 ```
-### Exemple
+### Example
 If you want to convert 1 Usd into Euro and Australian Dollar, run: 
 ```
 $ node bin/index.js 1 usd eur aud
