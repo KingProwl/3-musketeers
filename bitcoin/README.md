@@ -1,3 +1,10 @@
+<h1 align="center">TDD 95% coverage</h1>
+<p align="center"> 
+<img src="https://github.com/KingProwl/3-musketeers/blob/master/bitcoin/tests.PNG">
+</p>
+
+***
+
 # bitcoin
 
 ## Features
