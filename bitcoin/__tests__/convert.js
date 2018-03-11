@@ -3,6 +3,8 @@
 const convert = require('..');
 const Big = require('big.js');
 
+// 95% coverage.
+
 test('should default to returning a Number', () => {
   //convert(2, 'BTC', 'BTC');
   expect(convert(5, 'BTC', 'BTC')).toBe(5);
