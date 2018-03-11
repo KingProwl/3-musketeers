@@ -48,7 +48,7 @@ Then, if you want any currency to be converted into predefined currencies you ca
 ```
 $ node bin/index.js --save zar chf
 ```
-This will edit the config.json file and,any new requests will now be converted to zar(South African Rand) and chf(Swiss Franc).
+This will edit the config.json file and, any new requests will now be converted to zar(South African Rand) and chf(Swiss Franc).
 
 ***
 
