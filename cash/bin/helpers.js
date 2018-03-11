@@ -8,6 +8,11 @@ const config = new Conf();
 
 updateNotifier({pkg}).notify();
 
+/**
+ * saveCurrencies() function : save default currencies configuration to be used.
+ * @param {array} amount List of currencies.
+ */
+
 const saveCurrencies = argv => {
   config.set('defaultFrom', argv[1] || config.get('defaultFrom', 'USD'));
   config.set(
@@ -20,10 +25,18 @@ const saveCurrencies = argv => {
   process.exit(1);
 };
 
+/**
+ * version() function : display the version of the tool.
+ */
+
 const version = () => {
   console.log(pkg.version);
   process.exit(1);
 };
+
+/**
+ * help() function : display help,informations,commands.
+ */
 
 const help = () => {
   console.log(`

@@ -7,6 +7,15 @@ const currencies = require('../lib/currencies.json');
 
 const API = 'https://api.fixer.io/latest';
 
+/**
+ * convert() function : Convert an amount to other currencies and display it.
+ * @param {int} amount  Amount to convert.
+ * @param {string} to  Destination currency.
+ * @param {string} from  Initial currency.
+ * @param {object} response  API response.
+ * @param {object} loading  Loading message console.
+ */
+
 const convert = configuration => {
   const {amount, to, from, response, loading} = configuration;
 
@@ -33,6 +42,14 @@ const convert = configuration => {
   );
   process.exit(1);
 };
+
+/**
+ * cash() function : convert an amount from one currency to another 
+ * @param {Object} command User input
+ * @param {int} amount Amount that will be converted.
+ * @param {string} to Currency to be converted.
+ * @param {string} from Original currency.
+ */
 
 const cash = async command => {
   const amount = command.amount;
